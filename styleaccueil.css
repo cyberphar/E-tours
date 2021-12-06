@@ -28,7 +28,7 @@ nav ul{
 
 nav ul li{
     float: left;
-    width: 10%;
+    width: 20%;
     text-align: center;
     position: relative;
 }
@@ -41,6 +41,7 @@ nav ul::after{
 
 nav a{
     display: block;
+    
     text-decoration: none;
     color: rgb(234, 231, 220);
     border-bottom: 2px solid transparent;
@@ -88,16 +89,21 @@ li.connexion a:hover{
 }
 
 h3 {
-  text-align: center;
   font-family: arial;
-  font-size: 180%;
-  color: rgb(232, 90, 79);
+  font-size: 80%;
+  color: rgb(0, 0, 0);
 }
 
 h2 {
+  text-align: center;
   font-family: arial;
-  font-size: 55%;
-  color: white;
+  font-size: 150%;
+  color: rgb(0, 0, 0);
+}
+h1 {
+  font-family: arial;
+  font-size: 100%;
+  color: rgb(0, 0, 0);
 }
 
 img.JeuFond{
@@ -160,4 +166,6 @@ img.AccFond{
 		color:white;
 		height: auto;
 }
+
+
 
